@@ -1,7 +1,8 @@
 ---
-type Props<T> = {
+type Props<T extends object> = {
   text: string;
   x: T;
+  y: keyof T;
 };
 
 const { text } = Astro.props;

@@ -1,8 +1,7 @@
+declare function Example<T extends object>(props: {
+  text: string;
+  x: T;
+  y: keyof T;
+}): unknown;
 
-declare function Example<T>(props: { text: string, x: T }): unknown
-
-
-
-
-
-export { Example }
+export { Example };

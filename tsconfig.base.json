@@ -15,9 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@frontmatter-cms-test/example": ["libs/example/src/index.js"]
+      "@frontmatter-cms-test/example": ["libs/example"]
     }
-
   },
   "exclude": ["node_modules", "tmp"]
 }

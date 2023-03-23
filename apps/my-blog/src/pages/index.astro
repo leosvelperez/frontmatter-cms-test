@@ -4,8 +4,8 @@ import { Example } from '@frontmatter-cms-test/example';
 ---
 
 <Layout title="Welcome to Astro.">
-  // As you can see I get not types from this.
-  <Example text="I can do this but ts does not" />
+  // You now get types correctly
+  <Example text="this now works as expected" x={{ a: 1 }} y="a" />
 </Layout>
 
 <style>
